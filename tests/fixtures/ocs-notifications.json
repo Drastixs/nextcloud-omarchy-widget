@@ -1,0 +1,77 @@
+{
+ "ocs": {
+  "meta": {
+   "status": "ok",
+   "statuscode": 200,
+   "message": "OK"
+  },
+  "data": [
+   {
+    "notification_id": 7,
+    "app": "settings",
+    "user": "alice",
+    "datetime": "2026-10-02T20:50:31+00:00",
+    "object_type": "activity_notification",
+    "object_id": "41",
+    "subject": "An administrator created an app password for a session named \"cli\"",
+    "message": "",
+    "link": "",
+    "subjectRich": "An administrator created an app password for a session named \"{token}\"",
+    "subjectRichParameters": {
+     "token": {
+      "type": "highlight",
+      "id": "41",
+      "name": "cli"
+     }
+    },
+    "messageRich": "",
+    "messageRichParameters": [],
+    "icon": "https://nextcloud.example.com/apps/settings/img/personal.svg",
+    "shouldNotify": true,
+    "actions": []
+   },
+   {
+    "notification_id": 2,
+    "app": "settings",
+    "user": "alice",
+    "datetime": "2026-06-26T16:16:23+00:00",
+    "object_type": "activity_notification",
+    "object_id": "15",
+    "subject": "An administrator created an app password for a session named \"cli\"",
+    "message": "",
+    "link": "",
+    "subjectRich": "An administrator created an app password for a session named \"{token}\"",
+    "subjectRichParameters": {
+     "token": {
+      "type": "highlight",
+      "id": "15",
+      "name": "cli"
+     }
+    },
+    "messageRich": "",
+    "messageRichParameters": [],
+    "icon": "https://nextcloud.example.com/apps/settings/img/personal.svg",
+    "shouldNotify": true,
+    "actions": []
+   },
+   {
+    "notification_id": 1,
+    "app": "firstrunwizard",
+    "user": "alice",
+    "datetime": "2026-06-26T13:47:44+00:00",
+    "object_type": "user",
+    "object_id": "alice",
+    "subject": "Add your profile information! For example your email is needed to receive notifications and reset your password.",
+    "message": "",
+    "link": "https://nextcloud.example.com/settings/user",
+    "subjectRich": "",
+    "subjectRichParameters": [],
+    "messageRich": "",
+    "messageRichParameters": [],
+    "icon": "https://nextcloud.example.com/apps/firstrunwizard/img/user.svg",
+    "shouldNotify": true,
+    "actions": []
+   }
+  ]
+ }
+}

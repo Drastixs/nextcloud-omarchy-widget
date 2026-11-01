@@ -1,0 +1,419 @@
+{
+ "ocs": {
+  "meta": {
+   "status": "ok",
+   "statuscode": 200,
+   "message": "OK"
+  },
+  "data": [
+   {
+    "activity_id": 319477,
+    "app": "files",
+    "type": "file_deleted",
+    "user": "alice",
+    "subject": "You deleted Deb/Documents/nc-widget-spike-sn2-delete-me.txt, Deb/Documents/nc-widget-spike-sn1-delete-me.txt, Deb/Documents/nc-widget-spike-mid-delete-me.bin, Deb/Documents/nc-widget-spike-m5-4-delete-me.bin and Deb/Documents/nc-widget-spike-m5-3-delete-me.bin",
+    "subject_rich": [
+     "You deleted {file5}, {file4}, {file3}, {file2} and {file1}",
+     {
+      "file1": {
+       "type": "file",
+       "id": "306442",
+       "name": "nc-widget-spike-m5-3-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-3-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306442"
+      },
+      "file2": {
+       "type": "file",
+       "id": "306443",
+       "name": "nc-widget-spike-m5-4-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-4-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306443"
+      },
+      "file3": {
+       "type": "file",
+       "id": "306451",
+       "name": "nc-widget-spike-mid-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-mid-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306451"
+      },
+      "file4": {
+       "type": "file",
+       "id": "306448",
+       "name": "nc-widget-spike-sn1-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-sn1-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306448"
+      },
+      "file5": {
+       "type": "file",
+       "id": "306450",
+       "name": "nc-widget-spike-sn2-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-sn2-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306450"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306442,
+    "object_name": "/Sync/Documents/nc-widget-spike-m5-3-delete-me.bin",
+    "objects": {
+     "306450": "/Sync/Documents/nc-widget-spike-sn2-delete-me.txt",
+     "306448": "/Sync/Documents/nc-widget-spike-sn1-delete-me.txt",
+     "306451": "/Sync/Documents/nc-widget-spike-mid-delete-me.bin",
+     "306443": "/Sync/Documents/nc-widget-spike-m5-4-delete-me.bin",
+     "306442": "/Sync/Documents/nc-widget-spike-m5-3-delete-me.bin"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/apps/files/img/delete-color.svg",
+    "datetime": "2026-11-01T22:03:42+00:00"
+   },
+   {
+    "activity_id": 319472,
+    "app": "files",
+    "type": "file_deleted",
+    "user": "alice",
+    "subject": "You deleted Deb/Documents/nc-widget-spike-dl-delete-me.bin, Deb/Documents/nc-widget-spike-m5-2-delete-me.bin, Deb/Documents/nc-widget-spike-m5-1-delete-me.bin, Deb/Documents/nc-widget-spike-m5-0-delete-me.bin and Deb/Documents/nc-widget-spike-ctl2-delete-me.txt",
+    "subject_rich": [
+     "You deleted {file5}, {file4}, {file3}, {file2} and {file1}",
+     {
+      "file1": {
+       "type": "file",
+       "id": "306449",
+       "name": "nc-widget-spike-ctl2-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-ctl2-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306449"
+      },
+      "file2": {
+       "type": "file",
+       "id": "306441",
+       "name": "nc-widget-spike-m5-0-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-0-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306441"
+      },
+      "file3": {
+       "type": "file",
+       "id": "306444",
+       "name": "nc-widget-spike-m5-1-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-1-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306444"
+      },
+      "file4": {
+       "type": "file",
+       "id": "306445",
+       "name": "nc-widget-spike-m5-2-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-2-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306445"
+      },
+      "file5": {
+       "type": "file",
+       "id": "306446",
+       "name": "nc-widget-spike-dl-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-dl-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306446"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306449,
+    "object_name": "/Sync/Documents/nc-widget-spike-ctl2-delete-me.txt",
+    "objects": {
+     "306446": "/Sync/Documents/nc-widget-spike-dl-delete-me.bin",
+     "306445": "/Sync/Documents/nc-widget-spike-m5-2-delete-me.bin",
+     "306444": "/Sync/Documents/nc-widget-spike-m5-1-delete-me.bin",
+     "306441": "/Sync/Documents/nc-widget-spike-m5-0-delete-me.bin",
+     "306449": "/Sync/Documents/nc-widget-spike-ctl2-delete-me.txt"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/apps/files/img/delete-color.svg",
+    "datetime": "2026-11-01T22:03:42+00:00"
+   },
+   {
+    "activity_id": 319470,
+    "app": "files",
+    "type": "file_deleted",
+    "user": "alice",
+    "subject": "You deleted Deb/Documents/nc-widget-spike-ctl1-delete-me.txt and Deb/Documents/nc-widget-spike-20mb-delete-me.bin",
+    "subject_rich": [
+     "You deleted {file2} and {file1}",
+     {
+      "file1": {
+       "type": "file",
+       "id": "306440",
+       "name": "nc-widget-spike-20mb-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-20mb-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306440"
+      },
+      "file2": {
+       "type": "file",
+       "id": "306447",
+       "name": "nc-widget-spike-ctl1-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-ctl1-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306447"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306440,
+    "object_name": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin",
+    "objects": {
+     "306447": "/Sync/Documents/nc-widget-spike-ctl1-delete-me.txt",
+     "306440": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/apps/files/img/delete-color.svg",
+    "datetime": "2026-11-01T22:03:42+00:00"
+   },
+   {
+    "activity_id": 319469,
+    "app": "files_sharing",
+    "type": "shared",
+    "user": "alice",
+    "subject": "You removed public link for nc-widget-spike-20mb-delete-me.bin",
+    "subject_rich": [
+     "You removed public link for {file}",
+     {
+      "file": {
+       "type": "file",
+       "id": "306440",
+       "name": "nc-widget-spike-20mb-delete-me.bin",
+       "path": "nc-widget-spike-20mb-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306440"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306440,
+    "object_name": "/nc-widget-spike-20mb-delete-me.bin",
+    "objects": {
+     "306440": "/nc-widget-spike-20mb-delete-me.bin"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/",
+    "icon": "https://nextcloud.example.com/core/img/actions/share.svg",
+    "datetime": "2026-11-01T22:03:11+00:00"
+   },
+   {
+    "activity_id": 319468,
+    "app": "files_sharing",
+    "type": "shared",
+    "user": "alice",
+    "subject": "You shared Deb/Documents/nc-widget-spike-20mb-delete-me.bin as public link",
+    "subject_rich": [
+     "You shared {file} as public link",
+     {
+      "file": {
+       "type": "file",
+       "id": "306440",
+       "name": "nc-widget-spike-20mb-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-20mb-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306440"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306440,
+    "object_name": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin",
+    "objects": {
+     "306440": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/core/img/actions/share.svg",
+    "datetime": "2026-11-01T22:03:11+00:00"
+   },
+   {
+    "activity_id": 319463,
+    "app": "files",
+    "type": "file_created",
+    "user": "alice",
+    "subject": "You created Deb/Documents/nc-widget-spike-mid-delete-me.bin, Deb/Documents/nc-widget-spike-sn2-delete-me.txt, Deb/Documents/nc-widget-spike-ctl2-delete-me.txt, Deb/Documents/nc-widget-spike-sn1-delete-me.txt and Deb/Documents/nc-widget-spike-ctl1-delete-me.txt",
+    "subject_rich": [
+     "You created {file5}, {file4}, {file3}, {file2} and {file1}",
+     {
+      "file1": {
+       "type": "file",
+       "id": "306447",
+       "name": "nc-widget-spike-ctl1-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-ctl1-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306447"
+      },
+      "file2": {
+       "type": "file",
+       "id": "306448",
+       "name": "nc-widget-spike-sn1-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-sn1-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306448"
+      },
+      "file3": {
+       "type": "file",
+       "id": "306449",
+       "name": "nc-widget-spike-ctl2-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-ctl2-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306449"
+      },
+      "file4": {
+       "type": "file",
+       "id": "306450",
+       "name": "nc-widget-spike-sn2-delete-me.txt",
+       "path": "Deb/Documents/nc-widget-spike-sn2-delete-me.txt",
+       "link": "https://nextcloud.example.com/f/306450"
+      },
+      "file5": {
+       "type": "file",
+       "id": "306451",
+       "name": "nc-widget-spike-mid-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-mid-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306451"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306447,
+    "object_name": "/Sync/Documents/nc-widget-spike-ctl1-delete-me.txt",
+    "objects": {
+     "306451": "/Sync/Documents/nc-widget-spike-mid-delete-me.bin",
+     "306450": "/Sync/Documents/nc-widget-spike-sn2-delete-me.txt",
+     "306449": "/Sync/Documents/nc-widget-spike-ctl2-delete-me.txt",
+     "306448": "/Sync/Documents/nc-widget-spike-sn1-delete-me.txt",
+     "306447": "/Sync/Documents/nc-widget-spike-ctl1-delete-me.txt"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/apps/files/img/add-color.svg",
+    "datetime": "2026-11-01T22:02:33+00:00"
+   },
+   {
+    "activity_id": 319458,
+    "app": "files",
+    "type": "file_created",
+    "user": "alice",
+    "subject": "You created Deb/Documents/nc-widget-spike-dl-delete-me.bin, Deb/Documents/nc-widget-spike-m5-2-delete-me.bin, Deb/Documents/nc-widget-spike-m5-1-delete-me.bin, Deb/Documents/nc-widget-spike-m5-4-delete-me.bin and Deb/Documents/nc-widget-spike-m5-3-delete-me.bin",
+    "subject_rich": [
+     "You created {file5}, {file4}, {file3}, {file2} and {file1}",
+     {
+      "file1": {
+       "type": "file",
+       "id": "306442",
+       "name": "nc-widget-spike-m5-3-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-3-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306442"
+      },
+      "file2": {
+       "type": "file",
+       "id": "306443",
+       "name": "nc-widget-spike-m5-4-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-4-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306443"
+      },
+      "file3": {
+       "type": "file",
+       "id": "306444",
+       "name": "nc-widget-spike-m5-1-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-1-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306444"
+      },
+      "file4": {
+       "type": "file",
+       "id": "306445",
+       "name": "nc-widget-spike-m5-2-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-2-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306445"
+      },
+      "file5": {
+       "type": "file",
+       "id": "306446",
+       "name": "nc-widget-spike-dl-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-dl-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306446"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306442,
+    "object_name": "/Sync/Documents/nc-widget-spike-m5-3-delete-me.bin",
+    "objects": {
+     "306446": "/Sync/Documents/nc-widget-spike-dl-delete-me.bin",
+     "306445": "/Sync/Documents/nc-widget-spike-m5-2-delete-me.bin",
+     "306444": "/Sync/Documents/nc-widget-spike-m5-1-delete-me.bin",
+     "306443": "/Sync/Documents/nc-widget-spike-m5-4-delete-me.bin",
+     "306442": "/Sync/Documents/nc-widget-spike-m5-3-delete-me.bin"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/apps/files/img/add-color.svg",
+    "datetime": "2026-11-01T21:57:22+00:00"
+   },
+   {
+    "activity_id": 319456,
+    "app": "files",
+    "type": "file_created",
+    "user": "alice",
+    "subject": "You created Deb/Documents/nc-widget-spike-m5-0-delete-me.bin and Deb/Documents/nc-widget-spike-20mb-delete-me.bin",
+    "subject_rich": [
+     "You created {file2} and {file1}",
+     {
+      "file1": {
+       "type": "file",
+       "id": "306440",
+       "name": "nc-widget-spike-20mb-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-20mb-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306440"
+      },
+      "file2": {
+       "type": "file",
+       "id": "306441",
+       "name": "nc-widget-spike-m5-0-delete-me.bin",
+       "path": "Deb/Documents/nc-widget-spike-m5-0-delete-me.bin",
+       "link": "https://nextcloud.example.com/f/306441"
+      }
+     }
+    ],
+    "message": "",
+    "message_rich": [
+     "",
+     []
+    ],
+    "object_type": "files",
+    "object_id": 306440,
+    "object_name": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin",
+    "objects": {
+     "306441": "/Sync/Documents/nc-widget-spike-m5-0-delete-me.bin",
+     "306440": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin"
+    },
+    "link": "https://nextcloud.example.com/apps/files/?dir=/Sync/Documents",
+    "icon": "https://nextcloud.example.com/apps/files/img/add-color.svg",
+    "datetime": "2026-11-01T21:56:12+00:00"
+   }
+  ]
+ }
+}

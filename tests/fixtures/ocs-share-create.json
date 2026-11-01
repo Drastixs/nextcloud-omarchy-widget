@@ -1,0 +1,49 @@
+{
+  "ocs": {
+    "meta": {
+      "status": "ok",
+      "statuscode": 200,
+      "message": "OK"
+    },
+    "data": {
+      "id": "8",
+      "share_type": 3,
+      "uid_owner": "alice",
+      "displayname_owner": "alice",
+      "permissions": 17,
+      "can_edit": true,
+      "can_delete": true,
+      "stime": 1793570591,
+      "parent": null,
+      "expiration": null,
+      "token": "AbCdEfGhIjKlMnO",
+      "uid_file_owner": "alice",
+      "note": "",
+      "label": "",
+      "displayname_file_owner": "alice",
+      "path": "/Sync/Documents/nc-widget-spike-20mb-delete-me.bin",
+      "item_type": "file",
+      "item_permissions": 27,
+      "is-mount-root": false,
+      "mount-type": "",
+      "mimetype": "application/x-bin",
+      "has_preview": false,
+      "storage_id": "home::alice",
+      "storage": 1,
+      "item_source": 306440,
+      "file_source": 306440,
+      "file_parent": 114037,
+      "file_target": "/nc-widget-spike-20mb-delete-me.bin",
+      "item_size": 20000000,
+      "item_mtime": 1793570100,
+      "share_with": null,
+      "share_with_displayname": "(Shared link)",
+      "password": null,
+      "send_password_by_talk": false,
+      "url": "https://nextcloud.example.com/s/AbCdEfGhIjKlMnO",
+      "mail_send": 1,
+      "hide_download": 0,
+      "attributes": null
+    }
+  }
+}
