@@ -1,0 +1,14 @@
+# Sent on $XDG_RUNTIME_DIR/Nextcloud/socket; replies and pushes as observed, client 35.0.0
+> VERSION:
+< VERSION:35.0.0daily:1.1
+> RETRIEVE_FOLDER_STATUS:/home/alice/Documents
+< STATUS:OK:/home/alice/Documents
+< STATUS:SYNC:/home/alice/Documents
+< STATUS:IGNORE:/home/alice/Documents
+> RETRIEVE_FILE_STATUS:/home/alice/Documents/nc-widget-spike-delete-me.bin
+< STATUS:NOP:/home/alice/Documents/nc-widget-spike-delete-me.bin
+< STATUS:SYNC:/home/alice/Documents/nc-widget-spike-delete-me.bin
+< STATUS:ERROR:/home/alice/Documents/nc-widget-spike-delete-me.bin
+< STATUS:OK:/home/alice/Documents/nc-widget-spike-20mb-delete-me.bin
+< REGISTER_PATH:/home/alice/Documents
+< UPDATE_VIEW:/home/alice/Documents

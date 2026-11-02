@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "nextcloud.widget",
+  "name": "Nextcloud",
+  "version": "1.0.0",
+  "author": "Jack Marshall",
+  "license": "MIT",
+  "description": "Nextcloud sync status, transfer progress, recent activity, and quick actions in the Omarchy bar.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Nextcloud",
+    "description": "See what is syncing, pause or resume, open folders, and copy share links.",
+    "category": "Files",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "activityCount": 8,
+      "showNotificationBadge": true,
+      "quotaWarnPercent": 90,
+      "serverRefreshSec": 60
+    },
+    "schema": [
+      {
+        "key": "activityCount",
+        "type": "integer",
+        "label": "Recent activity rows",
+        "min": 1,
+        "max": 25,
+        "step": 1,
+        "defaultValue": 8
+      },
+      {
+        "key": "showNotificationBadge",
+        "type": "boolean",
+        "label": "Unread notification badge",
+        "description": "Show a dot on the bar icon while the server has unread notifications.",
+        "defaultValue": true
+      },
+      {
+        "key": "quotaWarnPercent",
+        "type": "integer",
+        "label": "Quota warning (percent used)",
+        "min": 50,
+        "max": 100,
+        "step": 1,
+        "defaultValue": 90
+      },
+      {
+        "key": "serverRefreshSec",
+        "type": "integer",
+        "label": "Server refresh (seconds)",
+        "description": "How often quota, activity, and notifications are fetched.",
+        "min": 15,
+        "max": 3600,
+        "step": 5,
+        "defaultValue": 60
+      }
+    ]
+  }
+}
